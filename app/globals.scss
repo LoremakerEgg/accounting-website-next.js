@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+}
+.myLink {
+  color: black;
+  text-decoration: none;
+}
+.myLinkActive {
+  color: grey;
+  pointer-events: none;
+  text-decoration: none;
+}
