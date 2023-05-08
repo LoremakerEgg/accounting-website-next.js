@@ -36,6 +36,12 @@ const Header = () => {
           >
             Kontakta mig
           </Link>
+          <Link
+            href="/quasar"
+            className={pathname == "/quasar" ? "myLinkActive" : "myLink"}
+          >
+            Quasar
+          </Link>
         </div>
       </div>
     </header>
