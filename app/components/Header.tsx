@@ -42,6 +42,12 @@ const Header = () => {
           >
             Quasar
           </Link>
+          <Link
+            href="/guesswho"
+            className={pathname == "/guesswho" ? "myLinkActive" : "myLink"}
+          >
+            Guess Who
+          </Link>
         </div>
       </div>
     </header>
