@@ -14,7 +14,7 @@ const Header = () => {
             href="/"
             className={pathname == "/" ? "myLinkActive" : "myLink"}
           >
-            TITLE GOES HERE
+            Redovisningsekonomi för småföretag
           </Link>
         </div>
         <div className={styles.links}>
@@ -22,7 +22,7 @@ const Header = () => {
             href="/about"
             className={pathname == "/about" ? "myLinkActive" : "myLink"}
           >
-            Om mig
+            Om oss
           </Link>
           <Link
             href="/pricing"
@@ -34,9 +34,9 @@ const Header = () => {
             href="/contact"
             className={pathname == "/contact" ? "myLinkActive" : "myLink"}
           >
-            Kontakta mig
+            Kontakta oss
           </Link>
-          <Link
+          {/* <Link
             href="/quasar"
             className={pathname == "/quasar" ? "myLinkActive" : "myLink"}
           >
@@ -47,7 +47,7 @@ const Header = () => {
             className={pathname == "/guesswho" ? "myLinkActive" : "myLink"}
           >
             Guess Who
-          </Link>
+          </Link> */}
         </div>
       </div>
     </header>
